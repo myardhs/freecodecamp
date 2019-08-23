@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="msf-style.css">
+    </head>
+    <body>
+        <header>
+            <div class="space-1">
+                <img src="https://svgsilh.com/svg/2085075.svg" id="r-logo" alt="restaurant logo">
+            </div>
+            <div class="space-2">
+                <h1 id="title">Restaurant Survey</h1>
+                <p id="description"><strong>Please help us learn</strong> what we're doing right and what we need more work on by filling this card.</p>
+            </div>
+        </header>
+        <main>
+            <form id="survey-form">
+                <div class="size">
+                    <div class="size-a">
+                        <label for="name" id="name-label">Name :</label>
+                        <input id="name" type="text" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="size-a">
+                        <label for="email" id="email-label">Email address :</label>
+                        <input id="email" type="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div class="size-a">
+                        <label for="dropdown">Sex :</label>
+                        <select id="dropdown" name="sex">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="size">
+                    <div class="size-b">
+                        <label for="number" id="number-label">How many in your party?</label>
+                        <input id="number" type="number" name="quantity" min="1" max="7"  placeholder="Total guest">
+                    </div>
+                    <div class="size-c">
+                        <label for="date">Date</label>
+                        <input id="date" type="date" name="date">
+                    </div>
+                    <div class="size-d">
+                        <input id="dine-in" type="checkbox" name="eat-time" value="dine-in">
+                        <label for="dine-in">Dine in</label>
+                        <input id="take-out" type="checkbox" name="eat-time" value="take-out">
+                        <label for="take-out">Take out</label>
+                        <input id="breakfast" type="checkbox" name="eat-time" value="breakfast">
+                        <label for="breakfast">Breakfast</label>
+                        <input id="lunch" type="checkbox" name="eat-time" value="lunch">
+                        <label for="lunch">Lunch</label>
+                        <input id="dinner" type="checkbox" name="eat-time" value="dinner">
+                        <label for="dinner">Dinner</label>
+                    </div>
+                </div>
+                <div class="size">
+                    <div class="size-e">
+                        <label for="server-name">The name of your server:</label>
+                    </div>
+                    <div class="size-f">
+                        <input id="server-name" type="text" name="server-name" placeholder="Your server name">
+                    </div>
+                </div>
+                <div class="size">
+                    <div class="size-g">
+                        <label for="order">What did you order?</label>
+                        <textarea id="order" name="order" placeholder="Your order menu"></textarea><br><br>
+                        <label for="comment">Comment:</label>
+                        <textarea id="comment" name="comment" placeholder="Add comment"></textarea><br><br>
+                    </div>
+                    <div class="size-g">
+                        <fieldset>
+                            <legend>Quality of food:</legend>
+                            <input id="excellent" type="radio" name="quality" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input id="good" type="radio" name="quality" value="good">
+                            <label for="good">Good</label>
+                            <input id="fair" type="radio" name="quality" value="fair">
+                            <label for="fair">Fair</label>
+                            <input id="poor" type="radio" name="quality" value="poor">
+                            <label for="poor">Poor</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Portion size:</legend>
+                            <input id="excellent" type="radio" name="portion" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input id="good" type="radio" name="portion" value="good">
+                            <label for="good">Good</label>
+                            <input id="fair" type="radio" name="portion" value="fair">
+                            <label for="fair">Fair</label>
+                            <input id="poor" type="radio" name="portion" value="poor">
+                            <label for="poor">Poor</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Ease of Ordering:</legend>
+                            <input id="excellent" type="radio" name="ease" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input id="good" type="radio" name="ease" value="good">
+                            <label for="good">Good</label>
+                            <input id="fair" type="radio" name="ease" value="fair">
+                            <label for="fair">Fair</label>
+                            <input id="poor" type="radio" name="ease" value="poor">
+                            <label for="poor">Poor</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Service:</legend>
+                            <input id="excellent" type="radio" name="service" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input id="good" type="radio" name="service" value="good">
+                            <label for="good">Good</label>
+                            <input id="fair" type="radio" name="service" value="fair">
+                            <label for="fair">Fair</label>
+                            <input id="poor" type="radio" name="service" value="poor">
+                            <label for="poor">Poor</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Cleanliness:</legend>
+                            <input id="excellent" type="radio" name="cleanliness" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input id="good" type="radio" name="cleanliness" value="good">
+                            <label for="good">Good</label>
+                            <input id="fair" type="radio" name="cleanliness" value="fair">
+                            <label for="fair">Fair</label>
+                            <input id="poor" type="radio" name="cleanliness" value="poor">
+                            <label for="poor">Poor</label>
+                        </fieldset>
+                    </div>
+                </div>
+                <div>
+                    <input id="submit" type="submit" value="Submit">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>myardhs © 2019</p>  
+        </footer>
+    </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
