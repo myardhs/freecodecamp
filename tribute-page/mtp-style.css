@@ -1,0 +1,15 @@
+img {
+    display: block;
+    max-width: 55%;
+    margin: auto;
+}
+#img-caption {
+    text-align: center;
+    font-weight: bold;
+}
+#tribute-info {
+    margin-top: 35px;
+}
+footer {
+    text-align: center;
+}
