@@ -5,11 +5,94 @@
         <link rel="stylesheet" type="text/css" href="mplp.css">
     </head>
     <body>
-        <header>
-            
+        <header id="header">
+            <img id="header-img" src="https://cdn.pixabay.com/photo/2013/07/13/10/05/coffee-bean-156527_960_720.png" alt="coffee bean roasted">
+            <nav id="nav-bar">
+                <a class="nav-link" href="#process">PROCESS</a>
+                <a class="nav-link" href="#sourcing">SOURCING</a>
+                <a class="nav-link" href="#product">PRODUCT</a>
+            </nav>
         </header>
         <main>
-
+            <div id="hero">
+                <img id="hero-background" src="https://media.fshoq.com/images/200/cappuccino-coffee-with-biscuits-and-cinnamon-200-small.jpg" alt="">
+                <div id="hero-content">
+                    <h1>Premium Coffee Bean</h1>
+                    <p><em>Trusted by more than millions of people since 1965</em></p>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input type="email" id="email" name="email" placeholder="Get product info, tips, and discount..."><br>
+                        <input id="submit" type="submit" value="SUBSCRIBE">
+                    </form>
+                </div>
+            </div>
+            <div id="process">
+                <h2>Coffee Bean Processing</h2><br>
+                <iframe width="560" id="video" height="315" src="https://www.youtube.com/embed/yagagM7SlWs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <article id="sourcing">
+                <section class="container">
+                    <div class="col-1">
+                        <img class="article-img" src="https://cbtl-images.s3.us-west-1.amazonaws.com/Production/Drupal/s3fs-public/styles/story_square_image/public/story-detail-images/La-Cascada-Plantation-1.jpg?itok=wU9iMS6w" alt="hill">
+                    </div>
+                    <div class="col-1">
+                        <div class="col-desc">
+                            <h2>The Source Matters</h2>
+                            <p>We believe that buying from the best estates and small farms leads to the very best coffee. In our search for the finest coffees in the world, we use only the top 1% of the Arabica Beans found at altitudes up to 6,000 feet, which results in a more concentrated flavor.</p>
+                        </div>    
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="col-1">
+                        <div class="col-desc">
+                            <h2>Our People Believe</h2>
+                            <p>Many coffee companies claim to search the world for the finest coffees, yet very few do. At The Coffee Bean & Tea Leaf®, our Coffee Master, Jay Isais, goes to the source of our coffee to guarantee it is the highest quality obtainable on earth. The partners who prepare our coffee at every level are extremely passionate people committed to providing ‘Simply the Best’ coffee to our customers.  Quality has always been our No. 1 priority, and it will never be compromised.</p>
+                        </div>    
+                    </div>                    
+                    <div class="col-1">
+                        <img class="article-img" src="https://cbtl-images.s3.us-west-1.amazonaws.com/Production/Drupal/s3fs-public/styles/story_square_image/public/story-detail-images/our_people_believe.jpg?itok=m1FVhkCz" alt="hill">
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="col-1">
+                        <img class="article-img" src="https://cbtl-images.s3.us-west-1.amazonaws.com/Production/Drupal/s3fs-public/styles/story_square_image/public/story-detail-images/sourced_beans_original.jpg?itok=TakJV6kz" alt="hill">
+                    </div>
+                    <div class="col-1">
+                        <div class="col-desc">
+                            <h2>Know where every bean comes from</h2>
+                            <p>From the ship to shore, to the lab where our great taste is born, small batches of our fresh green coffee beans are roasted to perfection and analyzed for fragrance, aroma, flavor, acidity, body and finish. Only when quality is at its peak and our rigorous standards are met is it ready to be shared with you.</p>
+                        </div>    
+                    </div>
+                </section>
+            </article>
+            <div id="product">
+                <h2 id="heading">Our Product</h2>
+                <div class="container">
+                    <div class="box-model">
+                        <img class="product-img" src="https://d34vlxilw4fr21.cloudfront.net/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/1/8/18cor_standardcoffeebag_bag-front__0008_houseblend_light.jpg" alt="House Blend Coffee">
+                        <h3>House Blend Coffee</h3>
+                        <p>Light & Subtle</p>
+                        <p>North America</p>
+                        <p>Regular Caffeine</p><br>
+                        <input type="button" value="Add to Cart"><br>
+                    </div>
+                    <div class="box-model">
+                            <img class="product-img" src="https://d34vlxilw4fr21.cloudfront.net/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/c/b/cbtlwebsite_800x600_friends_coffee_darkroast_frt.jpg" alt="Central Perk Dark">
+                            <h3>Central Perk Dark</h3>
+                            <p>Whole Bean</p>
+                            <p>Dark & Distinctive</p>
+                            <p>Regular Caffeine</p><br>
+                            <input type="button" value="Add to Cart"><br>
+                    </div>
+                    <div class="box-model">
+                        <img class="product-img" src="https://d34vlxilw4fr21.cloudfront.net/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/j/a/jamaicabluemountain_cbtlwebsite.jpg" alt="100% Jamaica Blue Mountain">
+                        <h3>100% Jamaica Blue</h3>
+                        <p>Light & Subtle</p>
+                        <p>North America</p>
+                        <p>Regular Caffeine</p><br>
+                        <input type="button" value="Add to Cart"><br>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer>
             <p>myardhs © 2019</p>
