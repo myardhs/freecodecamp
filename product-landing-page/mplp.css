@@ -120,7 +120,7 @@ main {
 footer {
     text-align: center;
 }
-@media (min-width: 400px) {
+@media (max-width: 400px) {
     .container {
         display: block;
     }
