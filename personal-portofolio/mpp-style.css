@@ -1,0 +1,109 @@
+body {
+}
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+nav {
+    background-color: #00628B;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+#link-container {
+    display: flex;
+    margin: 0 0 0 auto;
+}
+#nav-header, .nav-link {
+    padding: 15px;
+    cursor: pointer;
+}
+.nav-link:hover {
+    background-color: #E6E6DC;
+}
+a {
+    text-decoration: none;
+}
+#nav-header a, .nav-link a {
+    font-weight: bold;
+    color: #E6E6DC;
+    font-size: 1.5rem;
+}
+.nav-link:hover a{
+    color: #00628B;
+}
+
+
+main {
+    background-color: #E6E6DC;
+}
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #81A594;
+    text-align: center;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+#welcome-section p {
+    color: #00628B;
+}
+#project {
+    background-color: #81A594;
+    padding: 60px 40px;
+}
+#project h2 {
+    color: #00628B;
+}
+#card-container {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 380px));
+    grid-gap: 20px;
+    justify-content: center;
+}
+.project-tile {
+    background-color: #00628B;
+    border-radius: 10px;
+}
+.project-tile img{
+    width: 100%; 
+    height: 270px;
+}
+figcaption {
+    padding: 15px;
+    text-align: center;
+}
+figcaption a {
+    font-weight: bold;
+    color: #E6E6DC;
+}
+
+
+footer {
+    background-color: #00628B;
+    color: #E6E6DC;
+    text-align: center;
+}
+#profile {
+    padding: 15px 0;
+}
+#profile a{
+    margin: 20px;
+    font-weight: bold;
+    color: #E6E6DC;
+}
+#profile a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 450px) {
+    .nav-link a, #nav-header a{
+        font-size: 100%;
+    }
+}
