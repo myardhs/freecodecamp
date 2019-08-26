@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Documentation</title>
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="mtdp-style.css">
+    </head>
+    <body class="container">
+        <header id="main-header">
+            <nav id="navbar">
+                <header>
+                    <h1>HTML Documentation</h1>
+                </header>
+                <button onclick="openFunction()" class="menu">MENU</button>
+                <div id="menu-container">
+                    <button onclick="closeFunction()" class="close-menu">close</button>
+                    <a class="nav-link" href="#Introduction">Introduction</a>
+                    <a class="nav-link" href="#Say_Hello_to_HTML_Elements">Say Hello to HTML Elements</a>
+                    <a class="nav-link" href="#Headline_with_the_h2_Element">Headline with the h2 Element</a>
+                    <a class="nav-link" href="#Inform_with_the_Paragraph_Element">Inform with the Paragraph Element</a>
+                    <a class="nav-link" href="#Fill_in_the_Blank_with_Placeholder_Text">Fill in the Blank with Placeholder Text</a>
+                    <a class="nav-link" href="#Freecodecamp">Freecodecamp</a>
+                </div>
+            </nav>
+        </header>
+        <main id="main-doc">
+            <section id="Introduction" class="main-section">
+                <header><h2>Introduction</h2></header>
+                <p>HTML, or HyperText Markup Language, is a markup language used to describe the structure of a web page. It uses a special syntax or notation to organize and give information about the page to the browser. Elements usually have opening and closing tags that surround and give meaning to content. For example, there are different tag options to place around text to show whether it is a heading, a paragraph, or a list.</p>
+                <p>For example:</p>
+                <hr>
+                <pre>
+                    <code>
+    &lt;h1>Top level heading: Maybe a page title&lt;/h1>
+
+    &lt;p>A paragraph of text. Some information we would like to communicate to the viewer. This can be as long or short as we would like.&lt;/p>
+
+    &lt;ol>
+        &lt;li>Number one on the list&lt;/li>
+        &lt;li>Number two&lt;/li>
+        &lt;li>A third item&lt;/li>
+        &lt;li>A fourth item&lt;/li>
+        &lt;li>A fifth item&lt;/li>
+    &lt;/ol>                                      
+                    </code>
+                </pre>
+                <hr>
+                <p>Becomes:</p>
+                <hr>
+                <h1>Top level heading: Maybe a page title</h1>
+                <p>A paragraph of text. Some information we would like to communicate to the viewer. This can be as long or short as we would like.</p> <ol>
+                    <li>Number one on the list</li>
+                    <li>Number two</li>
+                    <li>A third item</li>
+                    <li>A fourth item</li>
+                    <li>A fifth item</li>
+                </ol>
+                <hr>
+            </section>
+            <section id="Say_Hello_to_HTML_Elements" class="main-section">
+                <header><h2>Say Hello to HTML Elements</h2></header>
+                <p>Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.</p>
+                <p>First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.</p>
+                <p>Do you see the code in your code editor that says <code>&lt;h1>Hello&lt;/h1></code>? That's an HTML element.</p>
+                <p>Most HTML elements have an opening tag and a closing tag.</p>
+                <p>Opening tags look like this:</p>
+
+                <code>&lt;h1></code>
+
+                <p>Closing tags look like this:</p>
+
+                <code>&lt;/h1></code>
+
+                <p>The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.</p>
+            </section>
+            <section id="Headline_with_the_h2_Element" class="main-section">
+                <header><h2>Headline with the h2 Element</h2></header>
+                <p>This element tells the browser about the structure of your website. h1 elements are often used for main headings, while h2 elements are generally used for subheadings. There are also h3, h4, h5 and h6 elements to indicate different levels of subheadings.</p>
+                <code>&lt;h2>Hello World&lt;/h2></code>
+            </section>
+            <section id="Inform_with_the_Paragraph_Element" class="main-section">
+                <header id="Inform_with_the_Paragraph_Element"><h2>Inform with the Paragraph Element</h2></header>
+                <p>p elements are the preferred element for paragraph text on websites. p is short for "paragraph".</p>
+                <p>You can create a paragraph element like this:</p>
+                <code>&lt;p>I'm a p tag!&lt;/p></code>
+            </section>
+            <section id="Fill_in_the_Blank_with_Placeholder_Text" class="main-section">
+                <header><h2>Fill in the Blank with Placeholder Text</h2></header>
+                <p>Web developers traditionally use <code>lorem ipsum</code> text as placeholder text. The 'lorem ipsum' text is randomly scraped from a famous passage by Cicero of Ancient Rome.</p>
+                <p>Lorem ipsum text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web.</p>
+            </section>
+            <section id="Freecodecamp" class="main-section">
+                <header><h2>Freecodecamp</h2></header>
+                <p>The source of this page's content from Freecodecamp. <a href="https://learn.freecodecamp.org/">Learn more from Freecodecamp.</a></p>
+            </section>
+        </main>
+        <footer>
+            <p>myardhs © 2019</p>
+        </footer>
+        <script>
+            function openFunction() {
+                document.getElementById("menu-container").style.display = "block";
+            }
+            function closeFunction() {
+                document.getElementById("menu-container").style.display = "none";                
+            }
+        </script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
