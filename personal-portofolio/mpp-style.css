@@ -38,6 +38,7 @@ a {
 main {
     background-color: #E6E6DC;
 }
+
 #welcome-section {
     height: 100vh;
     display: flex;
@@ -52,11 +53,12 @@ h1, h2, h3 {
 #welcome-section p {
     color: #00628B;
 }
-#project {
+
+#projects {
     background-color: #81A594;
     padding: 60px 40px;
 }
-#project h2 {
+#projects h2 {
     color: #00628B;
 }
 #card-container {
